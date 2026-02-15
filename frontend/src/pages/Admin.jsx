@@ -143,7 +143,7 @@ export default function Admin() {
         <iframe
           width="100%"
           height="100%"
-          src="https://lookerstudio.google.com/embed/reporting/c55ac90c-4710-44ed-91db-d6a878f14c98/page/XN6mF"
+          src="https://lookerstudio.google.com/embed/reporting/c55ac90c-4710-44ed-91db-d6a878f14c98/page/p_qf1yq78x0d"
           frameBorder="0"
           style={{
             border: "none",

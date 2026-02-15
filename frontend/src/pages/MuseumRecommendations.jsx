@@ -45,6 +45,7 @@ export default function MuseumRecommendations() {
 
   const { t } = useTranslation();
   const [imageAvailable, setImageAvailable] = useState({});
+  const [imageOrientation, setImageOrientation] = useState({});
   const [reloadImagesSignal, setReloadImagesSignal] = useState(0);
   const [precachePending, setPrecachePending] = useState(false);
   const [precacheDone, setPrecacheDone] = useState(false);
@@ -67,6 +68,14 @@ export default function MuseumRecommendations() {
       img.onload = () => {
         if (!mounted) return;
         setImageAvailable((s) => ({ ...s, [r.artwork_id]: true }));
+        try {
+          const w = img.naturalWidth || img.width || 0;
+          const h = img.naturalHeight || img.height || 0;
+          const orient = w > h ? 'landscape' : (w < h ? 'portrait' : 'square');
+          setImageOrientation((s) => ({ ...s, [r.artwork_id]: orient }));
+        } catch (e) {
+          // ignore
+        }
       };
       img.onerror = () => {
         if (!mounted) return;
@@ -232,9 +241,10 @@ export default function MuseumRecommendations() {
                   padding: 14,
                   boxShadow: '0 12px 36px rgba(0,0,0,0.08)',
                   display: 'flex',
-                  flexDirection: 'column',
-                  gap: 12,
-                  alignItems: 'stretch'
+                  flexDirection: 'row',
+                  gap: 16,
+                  alignItems: 'stretch',
+                  flexWrap: 'wrap'
                 };
 
                 return (
@@ -246,20 +256,61 @@ export default function MuseumRecommendations() {
                       </div>
                     </div>
 
-                    <div style={{ height: 200, borderRadius: 10, overflow: 'hidden', background: '#f8f9fa', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      {imageAvailable[r.artwork_id] ? (
-                        <img src={`https://storage.googleapis.com/4th_hackathon_akakura_work/image/${r.artwork_id}.jpg`} alt={r.artwork_name} style={{ width: 'auto', height: '100%', objectFit: 'contain' }} />
-                      ) : (
-                        <div style={{ color: '#9aa7b0', fontSize: 14 }}>画像なし</div>
-                      )}
+                    <div style={{ display: 'flex', gap: 12, alignItems: 'stretch', width: '100%' }}>
+                      {(() => {
+                        const orient = imageOrientation[r.artwork_id] || 'landscape';
+                        const base = { borderRadius: 10, overflow: 'hidden', background: '#f8f9fa', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.6)' };
+
+                        if (orient === 'portrait') {
+                          return (
+                            <div style={{ ...base, flex: '0 0 160px', width: 160, height: 240 }}>
+                              {imageAvailable[r.artwork_id] ? (
+                                <img src={`https://storage.googleapis.com/4th_hackathon_akakura_work/image/${r.artwork_id}.jpg`} alt={r.artwork_name} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
+                              ) : (
+                                <div style={{ color: '#9aa7b0', fontSize: 14 }}>画像なし</div>
+                              )}
+                            </div>
+                          );
+                        }
+
+                        if (orient === 'square') {
+                          return (
+                            <div style={{ ...base, flex: '0 0 220px', width: 220, height: 220 }}>
+                              {imageAvailable[r.artwork_id] ? (
+                                <img src={`https://storage.googleapis.com/4th_hackathon_akakura_work/image/${r.artwork_id}.jpg`} alt={r.artwork_name} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
+                              ) : (
+                                <div style={{ color: '#9aa7b0', fontSize: 14 }}>画像なし</div>
+                              )}
+                            </div>
+                          );
+                        }
+
+                        // landscape
+                        return (
+                          <div style={{ ...base, flex: '0 0 280px', width: 280, height: 160 }}>
+                            {imageAvailable[r.artwork_id] ? (
+                              <img src={`https://storage.googleapis.com/4th_hackathon_akakura_work/image/${r.artwork_id}.jpg`} alt={r.artwork_name} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
+                            ) : (
+                              <div style={{ color: '#9aa7b0', fontSize: 14 }}>画像なし</div>
+                            )}
+                          </div>
+                        );
+                      })()}
+
+                      <div style={{ flex: '1 1 0%', minWidth: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                        <div style={{ fontSize: 20, fontWeight: 800, lineHeight: 1.2, wordBreak: 'break-word' }}>{r.artwork_name || '作品名なし'}</div>
+                        {r.artist_name && <div style={{ color: '#6b7280', marginTop: 8 }}>{r.artist_name}</div>}
+
+                        <div style={{ marginTop: 12, display: 'flex', justifyContent: 'flex-end' }}>
+                          <button onClick={() => {
+                            if (foundMuseum) handleVisitMuseum(foundMuseum);
+                            else navigate('/');
+                          }} style={{ minWidth: 140, padding: '10px 16px', background: '#5ba3d0', color: 'white', border: 'none', borderRadius: 10, fontWeight: 800, cursor: 'pointer' }}>美術館に訪問</button>
+                        </div>
+                      </div>
                     </div>
 
-                    <div style={{ marginTop: 'auto' }}>
-                      <button onClick={() => {
-                        if (foundMuseum) handleVisitMuseum(foundMuseum);
-                        else navigate('/');
-                      }} style={{ width: '100%', padding: '10px 12px', background: '#5ba3d0', color: 'white', border: 'none', borderRadius: 10, fontWeight: 800, cursor: 'pointer' }}>美術館に訪問</button>
-                    </div>
+                    
                   </div>
                 );
               })() : (

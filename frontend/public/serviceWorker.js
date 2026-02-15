@@ -1,6 +1,6 @@
 /* Service Worker: Chrome向けオフライン音声安定版 */
 
-const CACHE_NAME = "my-art-partner-v2";
+const CACHE_NAME = "my-art-partner-v3";
 
 // 初回インストール時にプリキャッシュする最小限のアセット（必要に応じて追加）
 const CORE_ASSETS = [

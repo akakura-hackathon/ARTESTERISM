@@ -743,11 +743,21 @@ export default function MuseumDetail() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontSize: "clamp(64px, 15vw, 96px)",
           marginBottom: "clamp(24px, 5vw, 40px)",
-          boxShadow: "0 4px 16px rgba(0, 0, 0, 0.1)"
+          boxShadow: "0 4px 16px rgba(0, 0, 0, 0.1)",
+          overflow: "hidden"
         }}>
-          🎨
+          <img
+            src={museum.imageUrl || `/museum${museum.id}.jpg`}
+            alt={t(museum.nameKey)}
+            onError={(e) => { console.error('Image load failed (MuseumDetail):', museum.id, e.target.src); e.target.onerror = null; e.target.style.display = 'none'; }}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              display: "block"
+            }}
+          />
         </div>
 
         {/* 説明セクション */}

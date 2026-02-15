@@ -186,7 +186,7 @@ export default function Home() {
                 e.currentTarget.style.boxShadow = "0 2px 12px rgba(91, 163, 208, 0.08)";
               }}
             >
-              {/* 画像 */}
+              {/* 画像（public/museum{id}.jpg を利用） */}
               <div style={{
                 width: "100%",
                 height: "clamp(150px, 40vw, 200px)",
@@ -194,11 +194,23 @@ export default function Home() {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                color: "white",
-                fontSize: "clamp(32px, 10vw, 48px)",
-                fontWeight: "bold"
+                overflow: "hidden"
               }}>
-                🎨
+                <img
+                  src={museum.imageUrl || `/museum${museum.id}.jpg`}
+                  alt={t(museum.nameKey)}
+                  onError={(e) => {
+                    console.error('Image load failed (Home):', museum.id, e.target.src);
+                    e.target.onerror = null;
+                    e.target.style.display = 'none';
+                  }}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    display: "block"
+                  }}
+                />
               </div>
 
               {/* コンテンツ */}
