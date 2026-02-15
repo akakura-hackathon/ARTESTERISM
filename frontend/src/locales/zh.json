@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "ARTESTERISM",
+    "logout": "退出登录",
+    "save": "保存",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "cancel": "取消",
+    "loading": "加载中..."
+  },
+  "login": {
+    "title": "ARTESTERISM",
+    "selectType": "请选择登录类型",
+    "userLogin": "用户登录",
+    "adminLogin": "管理员登录",
+    "loginWithGoogle": "使用Google登录",
+    "backToSelection": "返回选择页面",
+    "error": "登录错误",
+    "adminSubtitle": "访问管理员仪表板",
+    "userSubtitle": "了解您的艺术喜好",
+    "adminDescription": "请使用您的Google账户登录",
+    "userDescription": "开始您的个性化艺术体验",
+    "firstLoginNote": "首次登录时将设置您的艺术喜好"
+  },
+  "home": {
+    "title": "博物馆列表",
+    "description": "寻找符合您喜好的博物馆",
+    "visitMuseum": "访问"
+  },
+  "admin": {
+    "title": "管理员仪表板",
+    "backToUser": "返回用户页面"
+  },
+  "preference": {
+    "title": "偏好设置",
+    "description": "告诉我们您喜欢的艺术风格",
+    "profileTitle": "个人信息",
+    "profileDescription": "请提供一些基本信息，以便我们为您推荐最合适的艺术作品",
+    "gender": "性别",
+    "age": "年龄",
+    "male": "男性",
+    "female": "女性",
+    "other": "其他",
+    "required": "*",
+    "ageYears": "岁",
+    "rateArtwork": "请对以下艺术作品进行评价",
+    "slideLeft": "← 向左滑动：不喜欢",
+    "slideRight": "向右滑动：喜欢 →",
+    "savePreferences": "保存偏好",
+    "saving": "保存中...",
+    "error": "请输入性别和年龄",
+    "ageError": "请输入有效的年龄",
+    "interested": "感兴趣！",
+    "firestoreError": "请检查Firestore安全规则"
+  },
+  "museums": {
+    "1": {
+      "name": "东京当代美术馆",
+      "description": "展示当代艺术最新趋势的美术馆。可以欣赏到各种风格的作品。",
+      "location": "东京都江东区"
+    },
+    "2": {
+      "name": "京都国立博物馆",
+      "description": "以日本传统艺术和工艺品为中心的展览。感受古都的文化。",
+      "location": "京都府京都市"
+    },
+    "3": {
+      "name": "横滨美术馆",
+      "description": "广泛展示日本和海外的现代美术。特别展览也很丰富。",
+      "location": "神奈川县横滨市"
+    },
+    "4": {
+      "name": "大阪市立美术馆",
+      "description": "从日本古典美术到当代美术，拥有广泛的藏品。",
+      "location": "大阪府大阪市"
+    },
+    "5": {
+      "name": "福冈亚洲美术馆",
+      "description": "专门展示亚洲当代美术的美术馆。提供多元文化视角。",
+      "location": "福冈县福冈市"
+    },
+    "6": {
+      "name": "国立西洋美术馆",
+      "description": "展示从文艺复兴到现代的西洋美术。拥有世界级的藏品。",
+      "location": "东京都台东区"
+    },
+    "7": {
+      "name": "Akakura美术馆",
+      "description": "追求创新当代艺术与传统作品融合的美术馆。",
+      "location": "Akakura市"
+    }
+    ,
+    "8": {
+      "name": "千叶县立美术馆",
+      "description": "展示本地艺术并举办常设与特展的区域性美术馆。",
+      "location": "千叶县千叶市"
+    },
+    "9": {
+      "name": "国立西洋美术馆",
+      "description": "展示从文艺复兴到现代的西洋美术，拥有世界级藏品。",
+      "location": "东京都台东区"
+    },
+    "10": {
+      "name": "大原美术馆",
+      "description": "以其卓越的西方现代美术与日本作品收藏而闻名。",
+      "location": "仓敷市，冈山县"
+    },
+    "11": {
+      "name": "宝拉美术馆",
+      "description": "位于箱根自然环境中，收藏印象派与现代美术的知名美术馆。",
+      "location": "箱根，神奈川县"
+    }
+    ,
+    "12": {
+      "name": "大都会艺术博物馆",
+      "description": "世界上最大且最优秀的艺术博物馆之一，收藏从古代到当代的艺术品。",
+      "location": "美国 纽约市"
+    }
+  },
+  "museum": {
+    "notFound": "未找到博物馆",
+    "backToHome": "返回主页",
+    "createGuide": "🎤 创建语音导览",
+    "creatingGuide": "🔄 创建中...",
+    "guideCreated": "语音导览已创建！",
+    "guideCreatedOffline": "✓ 语音导览已创建！可离线播放。",
+    "cacheStatus": "状态",
+    "cacheReady": "✓ 就绪（可离线播放）",
+    "cachePreparing": "准备中...",
+    "cacheNone": "待机中",
+    "rating": "为此作品评分",
+    "dislike": "不喜欢",
+    "notPreferred": "不喜欢",
+    "like": "喜欢",
+    "saveRating": "保存评价",
+    "ratingNote": "* 如果离线，评价将在下次在线时自动保存",
+    "aboutMuseum": "关于博物馆",
+    "personalizedGuide": "🎧 您的个性化语音导览",
+    "guideDescription1": "根据您的喜好为这个博物馆的艺术品创建个性化语音导览。",
+    "guideDescription2": "享受基于您的艺术风格喜好的定制体验。",
+    "preparingGuide": "正在准备您的个性化语音导览...",
+    "yourPersonalGuide": "📱 您的专属语音导览",
+    "audioGuide": "语音导览（播放结束后自动进入下一个作品）",
+    "browserNotSupported": "您的浏览器不支持音频元素。",
+    "howWasIt": "💭 您觉得这个作品如何？",
+    "complete": "完成",
+    "nextArtwork": "下一个作品",
+    "previousArtwork": "← 上一个",
+    "nextArtworkArrow": "下一个 →",
+    "downloadThisArtwork": "📥 仅下载此作品",
+    "createAnotherGuide": "创建另一个语音导览",
+    "errorOccurred": "发生错误",
+    "recommendationFailed": "获取推荐失败",
+    "comingSoon": "准备中",
+    "audioGuideComingSoon": "🔧 此博物馆的语音导览目前正在准备中。",
+    "akakuraMuseumOnly": "目前，语音导览的创建仅适用于Akakura美术馆。"
+    ,
+    "level2Label": "为你推荐！👀",
+    "level3Label": "非常适合你！✨"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "ARTESTERISM",
+    "logout": "Logout",
+    "save": "Save",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading..."
+  },
+  "login": {
+    "title": "ARTESTERISM",
+    "selectType": "Please select login type",
+    "userLogin": "User Login",
+    "adminLogin": "Admin Login",
+    "loginWithGoogle": "Sign in with Google",
+    "backToSelection": "Back to Selection",
+    "error": "Login Error",
+    "adminSubtitle": "Access Admin Dashboard",
+    "userSubtitle": "Learn your art preferences",
+    "adminDescription": "Please sign in with your Google account",
+    "userDescription": "Start your personalized art experience",
+    "firstLoginNote": "You'll set up your art preferences on first login"
+  },
+  "home": {
+    "title": "Museum List",
+    "description": "Find museums that match your preferences",
+    "visitMuseum": "Visit"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "backToUser": "Back to User Page"
+  },
+  "preference": {
+    "title": "Preference Settings",
+    "description": "Tell us your favorite art styles",
+    "profileTitle": "Profile Information",
+    "profileDescription": "Please provide some basic information to help us recommend the best art for you",
+    "gender": "Gender",
+    "age": "Age",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "required": "*",
+    "ageYears": "years old",
+    "rateArtwork": "Please rate the artworks below",
+    "slideLeft": "← Slide left: Dislike",
+    "slideRight": "Slide right: Like →",
+    "savePreferences": "Save Preferences",
+    "saving": "Saving...",
+    "error": "Please enter gender and age",
+    "ageError": "Please enter a valid age",
+    "interested": "Interested!",
+    "firestoreError": "Please check Firestore security rules"
+  },
+  "museums": {
+    "1": {
+      "name": "Tokyo Museum of Contemporary Art",
+      "description": "A museum showcasing the latest trends in contemporary art. Enjoy diverse genres of artworks.",
+      "location": "Koto-ku, Tokyo"
+    },
+    "2": {
+      "name": "Kyoto National Museum",
+      "description": "Features traditional Japanese art and crafts. Experience the culture of the ancient capital.",
+      "location": "Kyoto City, Kyoto"
+    },
+    "3": {
+      "name": "Yokohama Museum of Art",
+      "description": "Exhibits a wide range of modern art from Japan and abroad. Rich special exhibitions.",
+      "location": "Yokohama City, Kanagawa"
+    },
+    "4": {
+      "name": "Osaka City Museum of Fine Arts",
+      "description": "Houses a wide collection from classical Japanese art to contemporary art.",
+      "location": "Osaka City, Osaka"
+    },
+    "5": {
+      "name": "Fukuoka Asian Art Museum",
+      "description": "A museum specializing in contemporary Asian art. Provides multicultural perspectives.",
+      "location": "Fukuoka City, Fukuoka"
+    },
+    "6": {
+      "name": "National Museum of Western Art",
+      "description": "Exhibits Western art from Renaissance to modern times. Features world-class collections.",
+      "location": "Taito-ku, Tokyo"
+    },
+    "7": {
+      "name": "Akakura Museum",
+      "description": "A museum pursuing the fusion of innovative contemporary art and traditional works.",
+      "location": "Akakura City"
+    }
+    ,
+    "8": {
+      "name": "Chiba Prefectural Museum",
+      "description": "A regional museum showcasing local art and rotating special exhibitions.",
+      "location": "Chiba City, Chiba"
+    },
+    "9": {
+      "name": "National Museum of Western Art",
+      "description": "Exhibits Western art from Renaissance to modern times. Features world-class collections.",
+      "location": "Taito-ku, Tokyo"
+    },
+    "10": {
+      "name": "Ohara Museum of Art",
+      "description": "Known for its distinguished collection of Western modern art and Japanese works.",
+      "location": "Kurashiki, Okayama"
+    },
+    "11": {
+      "name": "Pola Museum of Art",
+      "description": "A museum with a notable collection of Impressionist and modern art set in Hakone's natural surroundings.",
+      "location": "Hakone, Kanagawa"
+    }
+    ,
+    "12": {
+      "name": "The Metropolitan Museum of Art",
+      "description": "One of the world's largest and finest art museums, with collections spanning ancient to contemporary art.",
+      "location": "New York City, NY, USA"
+    }
+  },
+  "museum": {
+    "notFound": "Museum not found",
+    "backToHome": "Back to Home",
+    "createGuide": "🎤 Create Audio Guide",
+    "creatingGuide": "🔄 Creating...",
+    "guideCreated": "Audio guide created!",
+    "guideCreatedOffline": "✓ Audio guide created! Available for offline playback.",
+    "cacheStatus": "Status",
+    "cacheReady": "✓ Ready (Offline playback available)",
+    "cachePreparing": "Preparing...",
+    "cacheNone": "Standby",
+    "rating": "Rate this artwork",
+    "dislike": "Dislike",
+    "notPreferred": "Not Preferred",
+    "like": "Like",
+    "saveRating": "Save Rating",
+    "ratingNote": "* If offline, ratings will be saved automatically when online",
+    "aboutMuseum": "About the Museum",
+    "personalizedGuide": "🎧 Your Personal Audio Guide",
+    "guideDescription1": "Create a personalized audio guide for this museum's artworks based on your preferences.",
+    "guideDescription2": "Enjoy a customized experience based on your art style preferences.",
+    "preparingGuide": "Preparing your personalized audio guide...",
+    "yourPersonalGuide": "📱 Your Personal Audio Guide",
+    "audioGuide": "Audio Guide (Automatically advances to next artwork after playback)",
+    "browserNotSupported": "Your browser does not support the audio element.",
+    "howWasIt": "💭 How was this artwork?",
+    "complete": "Complete",
+    "nextArtwork": "Next Artwork",
+    "previousArtwork": "← Previous",
+    "nextArtworkArrow": "Next →",
+    "downloadThisArtwork": "📥 Download This Artwork Only",
+    "createAnotherGuide": "Create Another Audio Guide",
+    "errorOccurred": "An error occurred",
+    "recommendationFailed": "Failed to get recommendations",
+    "comingSoon": "Coming Soon",
+    "audioGuideComingSoon": "🔧 Audio guide for this museum is currently under preparation.",
+    "akakuraMuseumOnly": "Currently, audio guide creation is only available for Akakura Museum."
+    ,
+    "level2Label": "Recommended for you! 👀",
+    "level3Label": "Perfect for you! ✨"
+  }
+}

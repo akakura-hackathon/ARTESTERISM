@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "ARTESTERISM",
+    "logout": "Cerrar sesión",
+    "save": "Guardar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "loading": "Cargando..."
+  },
+  "login": {
+    "title": "ARTESTERISM",
+    "selectType": "Por favor seleccione el tipo de inicio de sesión",
+    "userLogin": "Inicio de sesión de usuario",
+    "adminLogin": "Inicio de sesión de administrador",
+    "loginWithGoogle": "Iniciar sesión con Google",
+    "backToSelection": "Volver a la selección",
+    "error": "Error de inicio de sesión",
+    "adminSubtitle": "Acceder al panel de administración",
+    "userSubtitle": "Aprende tus preferencias artísticas",
+    "adminDescription": "Por favor inicie sesión con su cuenta de Google",
+    "userDescription": "Comience su experiencia artística personalizada",
+    "firstLoginNote": "Configurará sus preferencias artísticas en el primer inicio de sesión"
+  },
+  "home": {
+    "title": "Lista de museos",
+    "description": "Encuentre museos que coincidan con sus preferencias",
+    "visitMuseum": "Visitar"
+  },
+  "admin": {
+    "title": "Panel de administración",
+    "backToUser": "Volver a página de usuario"
+  },
+  "preference": {
+    "title": "Configuración de preferencias",
+    "description": "Cuéntenos sus estilos de arte favoritos",
+    "profileTitle": "Información del perfil",
+    "profileDescription": "Proporcione información básica para ayudarnos a recomendar el mejor arte para usted",
+    "gender": "Género",
+    "age": "Edad",
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro",
+    "required": "*",
+    "ageYears": "años",
+    "rateArtwork": "Por favor califique las obras de arte a continuación",
+    "slideLeft": "← Deslice a la izquierda: No me gusta",
+    "slideRight": "Deslice a la derecha: Me gusta →",
+    "savePreferences": "Guardar preferencias",
+    "saving": "Guardando...",
+    "error": "Por favor ingrese género y edad",
+    "ageError": "Por favor ingrese una edad válida",
+    "interested": "¡Interesado!",
+    "firestoreError": "Por favor verifique las reglas de seguridad de Firestore"
+  },
+  "museums": {
+    "1": {
+      "name": "Museo de Arte Contemporáneo de Tokio",
+      "description": "Un museo que muestra las últimas tendencias del arte contemporáneo. Disfrute de obras de diversos géneros.",
+      "location": "Koto-ku, Tokio"
+    },
+    "2": {
+      "name": "Museo Nacional de Kioto",
+      "description": "Presenta arte tradicional japonés y artesanías. Experimente la cultura de la antigua capital.",
+      "location": "Ciudad de Kioto, Kioto"
+    },
+    "3": {
+      "name": "Museo de Arte de Yokohama",
+      "description": "Exhibe una amplia gama de arte moderno de Japón y el extranjero. Ricas exposiciones especiales.",
+      "location": "Ciudad de Yokohama, Kanagawa"
+    },
+    "4": {
+      "name": "Museo Municipal de Bellas Artes de Osaka",
+      "description": "Alberga una amplia colección desde el arte clásico japonés hasta el arte contemporáneo.",
+      "location": "Ciudad de Osaka, Osaka"
+    },
+    "5": {
+      "name": "Museo de Arte Asiático de Fukuoka",
+      "description": "Un museo especializado en arte contemporáneo asiático. Proporciona perspectivas multiculturales.",
+      "location": "Ciudad de Fukuoka, Fukuoka"
+    },
+    "6": {
+      "name": "Museo Nacional de Arte Occidental",
+      "description": "Exhibe arte occidental desde el Renacimiento hasta los tiempos modernos. Cuenta con colecciones de clase mundial.",
+      "location": "Taito-ku, Tokio"
+    },
+    "7": {
+      "name": "Museo Akakura",
+      "description": "Un museo que persigue la fusión del arte contemporáneo innovador y las obras tradicionales.",
+      "location": "Ciudad de Akakura"
+    }
+    ,
+    "8": {
+      "name": "Museo Prefectural de Chiba",
+      "description": "Un museo regional que muestra el arte local y exposiciones temporales.",
+      "location": "Ciudad de Chiba, Chiba"
+    },
+    "9": {
+      "name": "Museo Nacional de Arte Occidental",
+      "description": "Exhibe arte occidental desde el Renacimiento hasta los tiempos modernos. Cuenta con colecciones de clase mundial.",
+      "location": "Taito-ku, Tokio"
+    },
+    "10": {
+      "name": "Museo Ohara",
+      "description": "Conocido por su distinguida colección de arte moderno occidental y obras japonesas.",
+      "location": "Kurashiki, Okayama"
+    },
+    "11": {
+      "name": "Museo Pola",
+      "description": "Un museo con una notable colección de impresionistas y arte moderno situado en el entorno natural de Hakone.",
+      "location": "Hakone, Kanagawa"
+    }
+    ,
+    "12": {
+      "name": "Museo Metropolitano de Arte",
+      "description": "Uno de los museos de arte más grandes y destacados del mundo, con colecciones que abarcan desde la antigüedad hasta el arte contemporáneo.",
+      "location": "Ciudad de Nueva York, EE. UU."
+    }
+  },
+  "museum": {
+    "notFound": "Museo no encontrado",
+    "backToHome": "Volver al inicio",
+    "createGuide": "🎤 Crear guía de audio",
+    "creatingGuide": "🔄 Creando...",
+    "guideCreated": "¡Guía de audio creada!",
+    "guideCreatedOffline": "✓ ¡Guía de audio creada! Disponible para reproducción sin conexión.",
+    "cacheStatus": "Estado",
+    "cacheReady": "✓ Listo（Reproducción sin conexión disponible）",
+    "cachePreparing": "Preparando...",
+    "cacheNone": "En espera de preparación",
+    "rating": "Calificar esta obra",
+    "dislike": "No me gusta",
+    "notPreferred": "No preferido",
+    "like": "Me gusta",
+    "saveRating": "Guardar calificación",
+    "ratingNote": "※ Sin conexión, la calificación se guardará automáticamente la próxima vez que esté en línea",
+    "aboutMuseum": "Acerca del museo",
+    "personalizedGuide": "🎧 Tu propia guía de audio",
+    "guideDescription1": "Puedes crear una guía de audio con explicaciones adaptadas a tus preferencias sobre las obras exhibidas en este museo.",
+    "guideDescription2": "Disfruta de una experiencia personalizada basada en tus preferencias de estilo artístico.",
+    "preparingGuide": "Preparando una guía de audio adaptada a tus preferencias...",
+    "yourPersonalGuide": "📱 Tu guía de audio personal",
+    "audioGuide": "Guía de audio (avanza automáticamente a la siguiente obra después de reproducir)",
+    "browserNotSupported": "Su navegador no admite el elemento de audio.",
+    "howWasIt": "💭 ¿Qué te pareció esta obra?",
+    "complete": "Completar",
+    "nextArtwork": "Siguiente obra",
+    "previousArtwork": "← Obra anterior",
+    "nextArtworkArrow": "Siguiente obra →",
+    "downloadThisArtwork": "📥 Descargar solo esta obra",
+    "createAnotherGuide": "Crear otra guía de audio",
+    "errorOccurred": "Ocurrió un error",
+    "recommendationFailed": "Error al obtener recomendaciones",
+    "comingSoon": "Próximamente",
+    "audioGuideComingSoon": "🔧 La guía de audio para este museo está actualmente en preparación.",
+    "akakuraMuseumOnly": "Actualmente, la creación de guías de audio solo está disponible para el Museo Akakura."
+    ,
+    "level2Label": "¡Recomendado para ti! 👀",
+    "level3Label": "¡Perfecto para ti! ✨"
+  }
+}

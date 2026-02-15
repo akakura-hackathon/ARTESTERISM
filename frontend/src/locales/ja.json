@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "ARTESTERISM",
+    "logout": "ログアウト",
+    "save": "保存",
+    "back": "戻る",
+    "next": "次へ",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "loading": "読み込み中..."
+  },
+  "login": {
+    "title": "ARTESTERISM",
+    "selectType": "ログインタイプを選択してください",
+    "userLogin": "ユーザーログイン",
+    "adminLogin": "管理者ログイン",
+    "loginWithGoogle": "Googleでログイン",
+    "backToSelection": "選択画面に戻る",
+    "error": "ログインエラー",
+    "adminSubtitle": "管理者ダッシュボードへアクセス",
+    "userSubtitle": "あなたのアートの好みを学ぶ",
+    "adminDescription": "Googleアカウントでログインしてください",
+    "userDescription": "パーソナライズされたアート体験を始めましょう",
+    "firstLoginNote": "初回ログイン時にアートの好み設定があります"
+  },
+  "home": {
+    "title": "美術館一覧",
+    "description": "あなたの好みに合った美術館を探してみましょう",
+    "visitMuseum": "訪問する"
+  },
+  "admin": {
+    "title": "管理者ダッシュボード",
+    "backToUser": "ユーザページへ"
+  },
+  "preference": {
+    "title": "好みの設定",
+    "description": "好きなアートのスタイルを教えてください",
+    "profileTitle": "プロフィール情報",
+    "profileDescription": "あなたに最適なアートをご案内するため、簡単な情報を入力してください",
+    "gender": "性別",
+    "age": "年齢",
+    "male": "男性",
+    "female": "女性",
+    "other": "その他",
+    "required": "*",
+    "ageYears": "歳",
+    "rateArtwork": "下のアート作品を評価してください",
+    "slideLeft": "← 左にスライド：嫌い",
+    "slideRight": "右にスライド：好き →",
+    "savePreferences": "設定を保存",
+    "saving": "保存中...",
+    "error": "性別と年齢を入力してください",
+    "ageError": "有効な年齢を入力してください",
+    "interested": "気になる！",
+    "firestoreError": "Firestoreのセキュリティルールを確認してください"
+  },
+  "museums": {
+    "1": {
+      "name": "東京現代美術館",
+      "description": "現代アートの最新トレンドを展示する美術館。多様なジャンルの作品が楽しめます。",
+      "location": "東京都江東区"
+    },
+    "2": {
+      "name": "京都国立博物館",
+      "description": "日本の伝統芸術と工芸品を中心に展示。古都の文化を感じられます。",
+      "location": "京都府京都市"
+    },
+    "3": {
+      "name": "横浜美術館",
+      "description": "日本と海外の近代美術を幅広く展示。企画展も充実しています。",
+      "location": "神奈川県横浜市"
+    },
+    "4": {
+      "name": "大阪市立美術館",
+      "description": "日本の古典美術から現代美術まで、幅広いコレクションを保有。",
+      "location": "大阪府大阪市"
+    },
+    "5": {
+      "name": "福岡アジア美術館",
+      "description": "アジアの現代美術を専門とする美術館。多文化的な視点を提供します。",
+      "location": "福岡県福岡市"
+    },
+    "6": {
+      "name": "国立西洋美術館",
+      "description": "ルネッサンスから現代までの西洋美術を展示。世界的なコレクションを誇ります。",
+      "location": "東京都台東区"
+    },
+    "7": {
+      "name": "Akakura美術館",
+      "description": "革新的な現代アートと伝統的な作品の融合を追求する美術館。",
+      "location": "Akakura市"
+    }
+    ,
+    "8": {
+      "name": "千葉県立美術館",
+      "description": "地域の美術を紹介する美術館。企画展も多数開催しています。",
+      "location": "千葉県千葉市"
+    },
+    "9": {
+      "name": "国立西洋美術館",
+      "description": "ルネッサンスから現代までの西洋美術を展示する美術館。世界的なコレクションを所蔵しています。",
+      "location": "東京都台東区"
+    },
+    "10": {
+      "name": "大原美術館",
+      "description": "洋画を中心とした充実したコレクションで知られる美術館です。",
+      "location": "岡山県倉敷市"
+    },
+    "11": {
+      "name": "ポーラ美術館",
+      "description": "箱根の自然に囲まれた環境で印象派や近代美術を展示する美術館です。",
+      "location": "神奈川県箱根町"
+    }
+    ,
+    "12": {
+      "name": "メトロポリタン美術館",
+      "description": "古代から現代まで幅広いコレクションを誇る世界有数の美術館です。",
+      "location": "アメリカ合衆国 ニューヨーク市"
+    }
+  },
+  "museum": {
+    "notFound": "美術館が見つかりません",
+    "backToHome": "トップページに戻る",
+    "createGuide": "🎤 音声案内を作成",
+    "creatingGuide": "🔄 作成中...",
+    "guideCreated": "音声案内の作成が完了しました！",
+    "guideCreatedOffline": "✓ 音声案内の作成が完了しました！オフラインで再生可能です。",
+    "cacheStatus": "状態",
+    "cacheReady": "✓ 準備完了（オフライン再生可能）",
+    "cachePreparing": "準備中...",
+    "cacheNone": "準備待機中",
+    "rating": "この作品を評価",
+    "dislike": "嫌い",
+    "notPreferred": "好みではない",
+    "like": "好き",
+    "saveRating": "評価を保存",
+    "ratingNote": "※ オフラインの場合、評価は次回オンライン時に自動保存されます",
+    "aboutMuseum": "美術館について",
+    "personalizedGuide": "🎧 自分だけの音声案内",
+    "guideDescription1": "この美術館の展示作品について、あなたの好みに合わせた説明を音声ガイドとして作成できます。",
+    "guideDescription2": "あなたが選んだアートスタイルの好みに基づいた、カスタマイズされた体験をお楽しみください。",
+    "preparingGuide": "あなたの好みに合わせた音声案内を準備しています...",
+    "yourPersonalGuide": "📱 あなた専用の音声案内",
+    "audioGuide": "音声ガイド（再生終了後に自動で次の作品に進みます）",
+    "browserNotSupported": "お使いのブラウザはオーディオ要素に対応していません。",
+    "howWasIt": "💭 この作品はいかがでしたか？",
+    "complete": "完了",
+    "nextArtwork": "次の作品へ",
+    "previousArtwork": "← 前の作品",
+    "nextArtworkArrow": "次の作品 →",
+    "downloadThisArtwork": "📥 この作品のみダウンロード",
+    "createAnotherGuide": "別の音声案内を作成",
+    "errorOccurred": "エラーが発生しました",
+    "recommendationFailed": "レコメンデーションの取得に失敗しました",
+    "comingSoon": "準備中",
+    "audioGuideComingSoon": "🔧 この美術館の音声案内は現在準備中です。",
+    "akakuraMuseumOnly": "現在、音声案内の作成はAkakura美術館のみ対応しております。"
+    ,
+    "level2Label": "あなたにおすすめ！👀",
+    "level3Label": "あなたにピッタリ！✨"
+  }
+}

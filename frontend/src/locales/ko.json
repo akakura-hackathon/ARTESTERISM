@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "ARTESTERISM",
+    "logout": "로그아웃",
+    "save": "저장",
+    "back": "뒤로",
+    "next": "다음",
+    "submit": "제출",
+    "cancel": "취소",
+    "loading": "로딩 중..."
+  },
+  "login": {
+    "title": "ARTESTERISM",
+    "selectType": "로그인 유형을 선택하세요",
+    "userLogin": "사용자 로그인",
+    "adminLogin": "관리자 로그인",
+    "loginWithGoogle": "Google로 로그인",
+    "backToSelection": "선택 화면으로 돌아가기",
+    "error": "로그인 오류",
+    "adminSubtitle": "관리자 대시보드 접근",
+    "userSubtitle": "당신의 예술 취향 배우기",
+    "adminDescription": "Google 계정으로 로그인하세요",
+    "userDescription": "맞춤형 예술 경험 시작",
+    "firstLoginNote": "첫 로그인 시 예술 취향 설정이 있습니다"
+  },
+  "home": {
+    "title": "미술관 목록",
+    "description": "취향에 맞는 미술관을 찾아보세요",
+    "visitMuseum": "방문하기"
+  },
+  "admin": {
+    "title": "관리자 대시보드",
+    "backToUser": "사용자 페이지로"
+  },
+  "preference": {
+    "title": "취향 설정",
+    "description": "좋아하는 예술 스타일을 알려주세요",
+    "profileTitle": "프로필 정보",
+    "profileDescription": "최적의 예술을 추천하기 위해 간단한 정보를 입력해주세요",
+    "gender": "성별",
+    "age": "나이",
+    "male": "남성",
+    "female": "여성",
+    "other": "기타",
+    "required": "*",
+    "ageYears": "세",
+    "rateArtwork": "아래 예술 작품을 평가해주세요",
+    "slideLeft": "← 왼쪽으로 슬라이드: 싫어요",
+    "slideRight": "오른쪽으로 슬라이드: 좋아요 →",
+    "savePreferences": "설정 저장",
+    "saving": "저장 중...",
+    "error": "성별과 나이를 입력하세요",
+    "ageError": "유효한 나이를 입력하세요",
+    "interested": "관심있어요!",
+    "firestoreError": "Firestore 보안 규칙을 확인하세요"
+  },
+  "museums": {
+    "1": {
+      "name": "도쿄 현대 미술관",
+      "description": "현대 미술의 최신 트렌드를 전시하는 미술관. 다양한 장르의 작품을 즐길 수 있습니다.",
+      "location": "도쿄도 코토구"
+    },
+    "2": {
+      "name": "교토 국립 박물관",
+      "description": "일본 전통 예술과 공예품을 중심으로 전시. 고도의 문화를 느낄 수 있습니다.",
+      "location": "교토부 교토시"
+    },
+    "3": {
+      "name": "요코하마 미술관",
+      "description": "일본과 해외의 근대 미술을 폭넓게 전시. 기획전도 풍부합니다.",
+      "location": "가나가와현 요코하마시"
+    },
+    "4": {
+      "name": "오사카 시립 미술관",
+      "description": "일본의 고전 미술부터 현대 미술까지 폭넓은 컬렉션 보유.",
+      "location": "오사카부 오사카시"
+    },
+    "5": {
+      "name": "후쿠오카 아시아 미술관",
+      "description": "아시아 현대 미술 전문 미술관. 다문화적 관점 제공.",
+      "location": "후쿠오카현 후쿠오카시"
+    },
+    "6": {
+      "name": "국립 서양 미술관",
+      "description": "르네상스부터 현대까지의 서양 미술 전시. 세계적인 컬렉션 자랑.",
+      "location": "도쿄도 다이토구"
+    },
+    "7": {
+      "name": "Akakura 미술관",
+      "description": "혁신적인 현대 미술과 전통 작품의 융합을 추구하는 미술관.",
+      "location": "Akakura시"
+    }
+    ,
+    "8": {
+      "name": "치바현립미술관",
+      "description": "지역 미술과 기획 전시를 선보이는 지역 미술관입니다.",
+      "location": "치바현 치바시"
+    },
+    "9": {
+      "name": "국립서양미술관",
+      "description": "르네상스부터 현대까지의 서양 미술을 전시합니다. 세계적인 컬렉션을 자랑합니다.",
+      "location": "도쿄도 다이토구"
+    },
+    "10": {
+      "name": "오하라미술관",
+      "description": "서양 근대미술과 일본 작품으로 잘 알려진 컬렉션을 보유한 미술관입니다.",
+      "location": "구라시키, 오카야마"
+    },
+    "11": {
+      "name": "포라미술관",
+      "description": "하코네의 자연 속에 위치한 인상파 및 근대미술 컬렉션으로 유명한 미술관입니다.",
+      "location": "하코네, 가나가와"
+    }
+    ,
+    "12": {
+      "name": "메트로폴리탄 미술관",
+      "description": "고대부터 현대에 이르는 방대한 컬렉션을 자랑하는 세계적인 미술관입니다.",
+      "location": "미국 뉴욕"
+    }
+  },
+  "museum": {
+    "notFound": "미술관을 찾을 수 없습니다",
+    "backToHome": "홈으로 돌아가기",
+    "createGuide": "🎤 음성 안내 만들기",
+    "creatingGuide": "🔄 생성 중...",
+    "guideCreated": "음성 안내 생성 완료!",
+    "guideCreatedOffline": "✓ 음성 안내 생성 완료! 오프라인 재생 가능합니다.",
+    "cacheStatus": "상태",
+    "cacheReady": "✓ 준비 완료（오프라인 재생 가능）",
+    "cachePreparing": "준비 중...",
+    "cacheNone": "준비 대기 중",
+    "rating": "이 작품 평가",
+    "dislike": "싫어요",
+    "notPreferred": "선호하지 않음",
+    "like": "좋아요",
+    "saveRating": "평가 저장",
+    "ratingNote": "※ 오프라인 상태에서는 평가가 다음 온라인 시 자동 저장됩니다",
+    "aboutMuseum": "미술관 정보",
+    "personalizedGuide": "🎧 나만의 음성 안내",
+    "guideDescription1": "이 미술관의 전시 작품에 대해 당신의 취향에 맞춘 설명을 음성 가이드로 만들 수 있습니다.",
+    "guideDescription2": "당신이 선택한 예술 스타일 취향에 기반한 맞춤형 경험을 즐기세요.",
+    "preparingGuide": "당신의 취향에 맞춘 음성 안내를 준비하고 있습니다...",
+    "yourPersonalGuide": "📱 당신 전용 음성 안내",
+    "audioGuide": "음성 가이드（재생 종료 후 자동으로 다음 작품으로 이동）",
+    "browserNotSupported": "브라우저가 오디오 요소를 지원하지 않습니다.",
+    "howWasIt": "💭 이 작품은 어떠셨나요?",
+    "complete": "완료",
+    "nextArtwork": "다음 작품",
+    "previousArtwork": "← 이전 작품",
+    "nextArtworkArrow": "다음 작품 →",
+    "downloadThisArtwork": "📥 이 작품만 다운로드",
+    "createAnotherGuide": "다른 음성 안내 만들기",
+    "errorOccurred": "오류 발생",
+    "recommendationFailed": "추천 가져오기 실패",
+    "comingSoon": "준비 중",
+    "audioGuideComingSoon": "🔧 이 미술관의 음성 안내는 현재 준비 중입니다.",
+    "akakuraMuseumOnly": "현재 음성 안내 생성은 Akakura 미술관만 지원합니다."
+      ,
+      "level2Label": "당신에게 추천합니다! 👀",
+      "level3Label": "당신에게 딱 맞아요! ✨"
+  }
+}
